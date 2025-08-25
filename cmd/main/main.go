@@ -4,10 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/mux"
-
-	//"github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/HemaHarshitha9449/go-bookstore/pkg/routes"
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/gorilla/mux"
 )
 
 func main() {
